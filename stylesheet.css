@@ -7,6 +7,7 @@
 .header-list li {
   list-style: none;
   float:left;
+  margin-left:auto;
   color:white;
   padding: 10px;
 }
@@ -31,11 +32,27 @@
 
 .header-title h2 {
   position: absolute;
-  top : 100px;
+  top : 80px;
   left: 0;
   font-size: 30px;
   color: white;
-  opacity: 0.5;
+  opacity: 0.8;
+}
+
+.header-title h3 {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.facebook {
+  background-color: #3b5998;
 }
 
 .header-title i {
